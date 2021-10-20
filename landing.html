@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>allen's dream</title>
+    <meta name="author" content="Allen Tran" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="static\css\landing.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a9cfebec94.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <script type="text/javascript" src="static\js\index.js"></script>
+</head>
+
+<body>
+
+    <nav id="nav-bar">
+        <i class="fas fa-window-close close-button" onclick="closeNav()"></i>
+        <div id="link-wrapper">
+            <a href="#about-me" class="nav-link">about me</a>
+            <a href="#education" class="nav-link">education</a>
+            <a href="#projects" class="nav-link">projects</a>
+            <a href="mailto:allentran08@gmail.com" class="nav-link">contact</a>
+        </div>
+    </nav>
+
+    <i class="fas fa-bars" id="menu-button" onclick="openNav()"></i>
+
+    <section id="welcome" style="margin-bottom: 90px">
+        <div class="center">
+            <h1 id="headline" class="shake">
+                <span class="iconify" data-icon="mdi:weather-night-partly-cloudy"></span> welcome to allen's dream <span
+                    class="iconify" data-icon="mdi:weather-night-partly-cloudy"></span>
+            </h1>
+        </div>
+
+        <div class="center">
+            <div class="center">
+                <img class="avatar" src="static\images\allen.jpg" style="width: 300px; border:2rem; border-color: white;
+  border-style: solid;
+  border-width: 12px;" />
+            </div>
+            <div class="medias">
+                <a href="https://github.com/allen-tran/" target="_blank" class="fa fa-github media-icon"></a>
+                <a href="https://www.linkedin.com/in/allentran08/" target="_blank"
+                    class="fa fa-linkedin media-icon"></a>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about-me">
+        <div class="center">
+            <div class="self-intro">
+                <p class="bigger-text center" style="font-size: 30px;">languages and technologies:</p>
+                <br>
+                <div id="#lang-and-tech" class="center" style="gap: 30px;color:white;">
+                    <img src="https://img.icons8.com/ios/60/000000/python--v1.png" />
+                    <img src="https://img.icons8.com/ios/60/000000/java-coffee-cup-logo--v1.png" />
+                    <img src="https://img.icons8.com/ios/60/000000/javascript.png" />
+                    <img src="https://img.icons8.com/ios/60/000000/react-native--v1.png" />
+                    <img src="https://img.icons8.com/ios/60/000000/sql.png" />
+                    <img src="https://img.icons8.com/ios/60/000000/git.png" />
+                    <img src="https://img.icons8.com/ios/60/000000/html-5.png" />
+                    <img src="https://img.icons8.com/ios/60/000000/css3.png" />
+                    <img src="https://img.icons8.com/ios/60/000000/console.png" />
+                    <img src="https://img.icons8.com/ios/60/000000/c-plus-plus-logo.png" />
+                    <img src="https://img.icons8.com/ios/60/000000/x86.png" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume-wrap">
+        <a target="_blank" href="static\Allen Tran Resume 10.05 [FS].pdf">
+            <div id="resume-button" class="resume">
+                <center>
+                    <h3>download resume</h3>
+                </center>
+            </div>
+        </a>
+    </section>
+
+    <section id="education" style="padding: 50px 0 30px 0;">
+        <h2 class="bigger-text center">education</h2>
+        <div id="education-wraper">
+            <div id="school-photo-container">
+                <a href="https://www.sjsu.edu/" target="_blank"><img class="school" src="static\images\sjsu.png"></a>
+                <a href="http://www.deanza.edu/" target="_blank"><img class="school" src="static\images\deanza.png"></a>
+                <div class="school-description">
+                    <p class="bigger-text school-name"> san jose state university</p>
+                    <p class="text">
+                        august 2021 - may 2023 <br><br>
+                        b.s. computer science <br>
+                        gpa: 3.90
+                    </p>
+                </div>
+                <div class="school-description">
+                    <p class="bigger-text school-name">de anza college</p>
+                    <p class="text">
+                        september 2019 - august 2021 <br><br>
+                        a.a. computer science<br>
+                        gpa: 3.94
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" style="padding: 50px 0 30px 0;">
+        <h2 class="bigger-text center">projects</h2>
+
+        <div id="projects-wrapper" class="center">
+            <div class="center project-frame" onclick="openInfo(1)">
+                <img class="project-photo" src="static\images\matricks.png">
+                <p class="bigger-text" style="font-size: 38px; margin:20px 15px 0px 15px;">matricks!
+                </p>
+                <p class="text project-description">
+                    powerful linear algebra calculation tool for students and engineers
+                    that cuts down tedious hours of work into seconds.<br><br><br>
+                    python, flask, html, css
+                </p>
+            </div>
+
+            <div class="center project-frame" onclick="openInfo(2)">
+                <img class="project-photo" src="static\images\social-media-screenshot.png">
+                <p class="bigger-text" style="font-size: 38px; margin:20px 15px 0px 15px;">
+                    social network
+                </p>
+                <p class="text project-description">
+                    social media on the terminal. users can create account,
+                    log in, find people and make friends with each other.<br><br><br><br>
+                    java
+                </p>
+            </div>
+
+            <div class="center project-frame" onclick="openInfo(3)">
+                <img class="project-photo" src="static\images\sceanalytics.png">
+                <p class="bigger-text" style="font-size: 38px; margin:20px 15px 0px 15px;">
+                    sce analytics
+                </p>
+                <p class="text project-description">
+                    full-stack analytics dashboard with custom reactJS components.
+                    calls rest api endpoints and sends desired data to front-end.
+
+                    <br><br><br>
+                    js, ts, reactJS, nodeJS, sql
+                </p>
+            </div>
+
+        </div>
+
+        <div class="center">
+            <button class="button bigger-text" style="width: 250px; margin-bottom: 100px; margin-top: 100px; color: white;
+                        background-color:#62929e" onclick="window.open('https://github.com/allen-tran','_blank')"> show
+                more </button>
+        </div>
+    </section>
+</body>
+
+</html>
