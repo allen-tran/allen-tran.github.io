@@ -5,9 +5,11 @@
   margin: 0;
   padding: 0;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   color: white;
   background: #546a7b;
@@ -15,7 +17,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* position:fixed; */
   top: 0;
   left: 0;
   right: 0;
@@ -54,16 +55,19 @@ body {
   border-style: solid;
   border-width: 12px;
 }
+
 img.avatar {
   border: 2rem;
   border-color: white;
   border-style: solid;
   border-width: 12px;
 }
+
 a {
   text-decoration: none;
   color: white;
 }
+
 #nav-bar {
   position: fixed;
   z-index: 1;
@@ -83,10 +87,10 @@ a {
 .close-button:hover {
   color: #393d3f;
 }
+
 #headline {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
-  /* position: absolute; */
   font-size: 50px;
   display: flex;
   justify-content: center;
@@ -95,6 +99,7 @@ a {
     2px 2px 0px #393d3f, 3px 3px 0px #393d3f, 4px 4px 0px #393d3f,
     4px 4px 0px #393d3f, 6px 6px 0px #393d3f, 6px 6px 0px #393d3f;
 }
+
 #link-wrapper {
   width: auto;
   height: auto;
@@ -105,7 +110,6 @@ a {
 
 .nav-link {
   padding-top: 25px;
-  /* font-family: "Anton", sans-serif; */
   font-size: 20px;
   color: white;
   transition: 0.3s;
@@ -131,9 +135,9 @@ a {
   transition: 0.3s;
 }
 #menu-button:hover {
-  background-color: light-orange;
   color: #393d3f;
 }
+
 .medias {
   background-color: #393d3f;
   border-radius: 10px;
@@ -148,6 +152,7 @@ a {
   grid-template-columns: auto auto;
   grid-gap: 10px;
 }
+
 .media-icon {
   width: 52px;
   font-size: 50px;
@@ -156,6 +161,7 @@ a {
   color: white;
   transition: 2s;
 }
+
 @media (max-width: 900px) {
   .medias {
     margin-top: 330px;
@@ -236,6 +242,7 @@ a {
     font-size: 18px;
   }
 }
+
 #school-photo-container {
   width: 800px;
   height: fit-content;
@@ -258,6 +265,7 @@ a {
 .school-name {
   font-size: 35px;
 }
+
 #education-wraper {
   margin-top: 130px;
   margin-bottom: 200px;
@@ -267,6 +275,7 @@ a {
   align-items: center;
   justify-content: center;
 }
+
 .school-description {
   border-color: #62929e;
   border-width: 8px;
@@ -279,12 +288,14 @@ a {
   color: #393d3f;
   background-color: rgb(255, 255, 255, 0.7);
 }
+
 #resume-buttton {
   text-align: center;
   margin-top: 100px;
   margin: center;
   width: auto;
 }
+
 .resume {
   padding: 10px;
   border: solid 5px #fff;
@@ -295,6 +306,7 @@ a {
   box-shadow: -5px 5px 10px #fff;
   transition: all 500ms;
 }
+
 #resume-wrap {
   justify-content: center;
   display: flex;
@@ -352,7 +364,6 @@ a {
   border-radius: 10px;
   color: white;
   font-size: 25px;
-  /* transition: 0.3s; */
 }
 .button:hover {
   opacity: 50%;
