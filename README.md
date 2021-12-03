@@ -1,4 +1,4 @@
-# allen's dream - professional portfolio
+# allen's dream - Professional Portfolio
 
 [Visit Site](http://allensdream.com/)
 
